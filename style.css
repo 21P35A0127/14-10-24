@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main-container {
+    display: inline-block;
+    margin-top: 30px;
+    /* margin-left: 40%; */
+    margin-bottom: 40px;
+    text-align: justify;
+    font-size: 140px;
+    /* border: 2px solid; */
+}
+
+header {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 45%;
+    margin-bottom: 40px;
+    text-align: justify;
+    /* border: 2px solid; */
+    font-size: 20px;
+}
+
+.ARCHITECTS {
+    position: relative;
+    left: 0px;
+    margin-left: 100px;
+    margin-bottom: 600px;
+    transition: 0.5sec ease smooth;
+    background-color: gray;
+}
+
+.ARCHITECTS:hover, .PROJECTS:hover, .ABOUT:hover, .CONTACT:hover {
+    background-color: lightslategray;
+    text-shadow: 1px 1px 2px;
+}
+
+.PROJECTS, .ABOUT, .CONTACT {
+    position: relative;
+    right: 0px;
+    border: 2px solid;
+    margin-right: 35px;
+}
+
+.image {
+    position: relative;
+}
+
+.Archi {
+    position: absolute;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px;
+    top: 400px;
+    left: 560px;
+    color: black;
+}
+
+b {
+    font-size: 35px;
+    background-color: whitesmoke;
+}
+
+h3 {
+    font-size: 30px;
+    margin: 10px;
+}
+
+.image-1, .image-2, .image-3, .image-4, .image-5, .image-6, .image-7, .image-8 {
+    display: inline-block;
+    position: relative;
+    margin-top: 20px;
+    width: 250px;
+    padding-left: 10px;
+}
+
+img {
+    width: 100%;
+    border: 2px solid;
+}
+
+p {
+    position: absolute;
+    padding: 10px;
+    top: 0px;
+    left: 10px;
+    z-index: 1;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+p {
+    background-color: black;
+    border: 2px solid;
+}
